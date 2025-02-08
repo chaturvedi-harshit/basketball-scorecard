@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", serif;
+  background-color: #1b244a;
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.score-card {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 120px;
+  background-color: black;
+  border: 5px;
+}
+
+.score {
+  color: #e11d48;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.score-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+}
+
+.score-button {
+  width: 45px;
+  height: 45px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: solid 1px #9aabd8;
+  color: #9aabd8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-game-btn {
+  font-family: inherit;
+  font-size: 1.6rem;
+  background-color: #9aabd8;
+  border: 5px solid #e11d48;
+  padding: 1rem 1.25rem;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+}
